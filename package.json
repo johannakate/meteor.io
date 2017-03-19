@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "watch": "nodemon --exec \"lessc style.less styles.min.css\" -e less"
+  },
+  "devDependencies": {
+    "less": "^2.7.2",
+    "nodemon": "^1.11.0"
+  }
+}

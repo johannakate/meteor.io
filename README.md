@@ -4,8 +4,8 @@ This page is static, but we're using Less, so if you would like to develop the p
 to recompile the Less file to CSS every time you make a change, run:
 
 ```
-./compile-style
+npm install
+npm run watch
 ```
 
-This will recompile the Less file for you every second automatically, so you don't have to worry
-about it. You must have `lessc` installed.
+This will recompile the Less file for you automatically whenever it changes.
