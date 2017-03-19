@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "watch": "nodemon --exec \"lessc style.less styles.min.css\" -e less"
+    "watch": "nodemon --exec \"npm run build:less\" -e less",
+    "build:less": "lessc style.less styles.min.css"
   },
   "devDependencies": {
     "less": "^2.7.2",
