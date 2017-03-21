@@ -1,11 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "watch": "nodemon --exec \"npm run build:less\" -e less",
-    "build:less": "lessc style.less styles.min.css"
+    "dev": "maw dev"
   },
   "devDependencies": {
-    "less": "^2.7.2",
-    "nodemon": "^1.11.0"
+    "make-a-website": "^0.1.0",
+    "maw": "^0.1.1"
   }
 }
