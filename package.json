@@ -4,7 +4,6 @@
     "dev": "maw dev"
   },
   "devDependencies": {
-    "make-a-website": "^0.1.0",
-    "maw": "^0.1.1"
+    "maw": "^0.3.1"
   }
 }
