@@ -5,7 +5,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
     <link rel="icon" href="https://meteor.com/favicon.png" type="image/png">
     <link rel="stylesheet" href="font.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+
     {{> __includes}}
+
     <meta name="viewport" content="initial-scale=1.0">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -22,7 +25,7 @@
         <img class="meteor" src="img/logo/meteor.png" />
         <img class="apollo" src="img/logo/apollo.png" />
       </div>
-      <h1>Meteor Development Group</h1>
+      <h1>{{companyName}}</h1>
       <h2 class="tagline">Build open source platforms with a talented, remote-first team.</h2>
       <a href="#jobs" class="btn fragment">See open positions</a>
       <p>We are an <a href="http://github.com/meteor">open-source</a> company dedicated to helping developers build great apps.  We make <a href="http://www.meteor.com">Meteor</a>, the popular JavaScript framework for building collaborative apps, <a href="https://www.meteor.com/hosting">Galaxy</a>, the premiere hosting provider for Meteor apps, and <a href="http://www.apollodata.com">Apollo</a>, a set of <a href="http://dev.apollodata.com">open-source libraries</a> and <a href="http://www.apollodata.com/optics">commercial tools</a> for using <a href="http://www.graphql.org">GraphQL</a>.</p>
@@ -214,10 +217,6 @@
         <img class="meteor" src="img/logo/logo-meteor-white.svg" />
       </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-
 
     <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
     <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
