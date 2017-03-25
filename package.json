@@ -4,6 +4,6 @@
     "dev": "maw dev"
   },
   "devDependencies": {
-    "maw": "^0.3.2"
+    "maw": "^0.4.10"
   }
 }
