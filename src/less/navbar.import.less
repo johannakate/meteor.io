@@ -1,0 +1,79 @@
+@import './colors.import.less';
+
+.pagetitle {
+  margin-top: 100px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 0 100px;
+  color: #fff;
+  z-index: 10;
+  // text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  transition: all 300ms ease-out;
+
+  &.team:not(.scrolled),
+  &.culture:not(.scrolled),
+  &.jobs:not(.scrolled) {
+    border-bottom: 1px solid #eee;
+
+    a.logo,
+    a.link {
+      color: @color-darkest;
+    }
+  }
+
+  &.team .team,
+  &.culture .culture,
+  &.jobs .jobs {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      height: 5px;
+      background-color: #eee;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &.scrolled {
+    background-color: @color-darkest;
+    transition: all 300ms ease-out;
+  }
+
+  > * {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+  }
+
+  a.logo {
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .link.right {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 20px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:first-of-type {
+      margin-right: -20px;
+    }
+  }
+}

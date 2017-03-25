@@ -1,6 +1,43 @@
 // This is silly, just a demo!
 module.exports = {
   companyName: 'Meteor Development Group',
+  featurette: [{
+    title: 'Recruiting',
+    subtitle: 'Recruiting for growth',
+    picture: 'recruiting.jpg',
+    description: 'Read about Chris Shaw\'s experience with recruting and listen to a webinar about his methods.',
+    link: 'https://meteor.com',
+  }, {
+    title: 'Marketing & Community',
+    subtitle: 'GraphQL Summit',
+    picture: 'recruiting.jpg',
+    description: 'In 2016, we hosted the world\'s first-ever GraphQL conference, attended by 350 developers from the world\'s top companies.',
+    link: 'http://www.graphql.com/summit/',
+  }, {
+    title: 'Open Source',
+    subtitle: 'Defining modern JavaScript',
+    picture: 'recruiting.jpg',
+    description: 'Listen to Ben Newman talk about modern JavaScript and his plans for the future of the Meteor platform.',
+    link: 'https://www.youtube.com/watch?v=5dZcNpGjxcE&index=1&list=PLZ66c9_z3umOuPSGsTu3mfzt6PGZeUyQZ',
+  }, {
+    title: 'Cloud Services',
+    subtitle: 'Container building in Galaxy',
+    picture: 'recruiting.jpg',
+    description: 'Read about our project to improve build and startup times in Galaxy, a containerized hosting platform for Meteor apps.',
+    link: 'https://blog.meteor.com/more-speed-and-insights-for-app-deployments-on-galaxy-5e818d36537c#.yvyp95ae0',
+  }, {
+    title: 'Frontend',
+    subtitle: 'GraphQL perf visualization',
+    picture: 'recruiting.jpg',
+    description: 'Read how we improved the UX of the query reporting page in Apollo Optics.',
+    link: 'https://blog.apollodata.com/upgraded-query-interface-in-optics-248351573727#.u5xfb7x64',
+  }, {
+    title: 'Open Source',
+    subtitle: 'GraphQL concepts blog post',
+    picture: 'recruiting.jpg',
+    description: 'Dhaivat Pandya explains the concepts behind GraphQL caching.',
+    link: 'https://dev-blog.apollodata.com/the-concepts-of-graphql-bc68bd819be3#.9n0zqxh9u',
+  }],
   people: [{
     name: 'Geoff Schmidt',
     picture: 'geoff.jpg',
@@ -29,7 +66,7 @@ module.exports = {
     twitter: 'marktrang',
     bio: 'Mark oversees business development and partnerships for Meteor. Previously a platform exec at top SaaS companies like Salesforce.com and LivePerson, Mark has built high-growth revenue channels through massive partner ecosystems like AppExchange. Mark has also been a founder at several venture-backed software companies and started his career at Deloitte Consulting helping save large enterprises from the dreaded Y2K bug. Mark holds a BA and MBA from UCLA and is a ramen lover, certified rescue diver, and adventure photographer.',
   }, {
-    name: 'Nick Martin',
+    name: 'Chris Shaw',
     picture: 'shaw.jpg',
     title: 'Director of Talent',
     twitter: 'cshaw4',
@@ -143,4 +180,5 @@ module.exports = {
     twitter: 'calebmer',
     bio: '',
   }],
+  partners: ['andressen.png', 'combinator.png', 'heavybit.png', 'matrix.png', 'trinity.png'],
 }

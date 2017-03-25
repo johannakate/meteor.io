@@ -1,0 +1,50 @@
+<html>
+  {{> head}}
+
+  <body>
+    {{> navbar page="team"}}
+
+    <p class="pagetitle">
+      We're a group of talented and ambitious people spread across the globe. We're on a mission to make product
+      development as fast, easy, and productive as possible, and we're very proud of our flexible, caring, and
+      remote-first work culture.
+    </p>
+
+    <p class="quote">
+      Kindness is one of our core values.
+    </p>
+    <p class="speaker">- Nick Martin, CTO</p>
+
+    <h4 class="subtitle">Our team</h4>
+
+    <div class="people">
+      {{#each people}}
+        <a class="card" href="https://twitter.com/{{ twitter }}" target="_blank">
+          <div class="flipper">
+            <div class="front">
+              <div class="overlay">
+                <div class="name">{{name}}</div>
+                <div class="position">{{#if founder}}<span class="founder">Founder</span>{{/if}}{{title}}</div>
+              </div>
+            </div>
+            <img class="picture" src="/img/people/{{ picture }}" />
+            <div class="back">
+              {{#if twitter}}<div class="twitter">@{{twitter}}</div>{{/if}}
+              <div class="bio">{{ bio }}</div>
+            </div>
+          </div>
+        </a>
+      {{/each}}
+    </div>
+
+    <h4 class="subtitle">Our investors</h4>
+
+    <div class="partners">
+      {{#each partners}}
+        <div class="partner" style="background-image: url('/img/partners/{{this}}')"></div>
+      {{/each}}
+    </div>
+
+    {{> footer}}
+  </body>
+</html>

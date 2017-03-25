@@ -1,10 +1,30 @@
 @import './colors.import.less';
 
+.partners {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  .partner {
+    flex: 1;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
 .people {
   font-size: 0;
-  max-width: 900;
+  max-width: 900px;
   margin: 0 auto;
-  text-align: center;
+  // text-align: left;
+
+  &.featurettes {
+    margin-top: 20px;
+    text-align: center;
+  }
 
   .card {
   	width: 170px;
@@ -17,6 +37,45 @@
     margin: 5px;
     text-align: left;
     color: #fff;
+
+    &.featurette {
+      width: 250px;
+      height: 250px;
+
+      .overlay {
+        padding: 15px;
+      }
+
+      img.picture {
+        width: 250px;
+        height: 250px;
+      }
+
+      .bio {
+        font-size: 14px;
+        padding: 20px;
+      }
+
+      .action.link {
+        position: absolute;
+        padding: 10px 20px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+        transition: all 300ms ease-out;
+
+        span {
+          font-size: 10px;
+        }
+
+        &:hover {
+          color: @color-apollo;
+          transition: all 300ms ease-out;
+        }
+      }
+    }
 
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
@@ -49,7 +108,7 @@
     		transform: rotateY(180deg);
 
         img.picture {
-          filter: blur(20px);
+          // filter: blur(20px);
           transition: all 0.3s ease-out;
         }
     	}
@@ -119,8 +178,8 @@
 
   .back {
     z-index: -1;
-    box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
-    background-color: rgba(0, 0, 0, 0.1);
+    // box-shadow: inset 0 0 85px rgba(255, 255, 255, 0.4);
+    background-color: rgba(51, 51, 51, 1);
 
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -150,5 +209,33 @@
         margin-right: 5px;
       }
     }
+  }
+}
+
+@media(max-width: 1000px) { // 900 + buffer
+  .people,
+  .partners {
+    max-width: 720px;
+  }
+}
+
+@media(max-width: 800px) { // 720 + buffer
+  .people,
+  .partners {
+    max-width: 540px;
+  }
+}
+
+@media(max-width: 600px) { // 540 + buffer
+  .people,
+  .partners {
+    max-width: 360px;
+  }
+}
+
+@media(max-width: 400px) { // 360 + buffer
+  .people,
+  .partners {
+    max-width: 180px;
   }
 }

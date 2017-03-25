@@ -1,0 +1,68 @@
+@import './colors.import.less';
+
+.worldmap {
+  margin: 40px auto 0;
+  display: block;
+  width: 600px;
+  background-image: url('/img/map.svg');
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.culture.pictures {
+  height: 480px;
+  max-width: 990px;
+  margin: 20px auto;
+  padding: 5px;
+
+  .image {
+   vertical-align: top;
+   display: inline-block;
+   width: ~"calc(33.33333333% - 10px)";
+   height: ~"calc(50% - 10px)";
+   margin: 5px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+   &.double {
+     width: ~"calc(66.66666666% - 10px)";
+   }
+ }
+}
+
+.benefits {
+  font-size: 16px;
+  max-width: 1080px;
+  margin: 40px auto;
+  padding: 0 40px;
+  text-align: center;
+
+  .benefits-item {
+    width: 300px;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+
+    .icon {
+      font-size: 20px;
+      margin-top: 2px;
+      position: absolute;
+    }
+
+    dt {
+      font-weight: 600;
+      margin-left: 30px;
+    }
+
+    dd {
+      margin-left: 30px;
+      font-size: 12px;
+    }
+
+  }
+}
