@@ -74,7 +74,7 @@ module.exports = {
   }, {
     name: 'Sashko Stubailo',
     picture: 'sashko.jpg',
-    title: 'Tech Lead : Apollo',
+    title: 'Tech Lead : Apollo OSS',
     twitter: 'stubailo',
     bio: 'Sashko has a history of working on leading edge web technologies that help developers build great applications. While working at Palantir, he developed a new charting library for data analysis and visualization capabilities that automatically reacts to changes in data. At Panjiva, he wrote a Rails internationalization middleware that lets professional translators directly click and edit parts of a web page. Sashko is particularly interested in improving Meteor\'s new developer experience and enabling everyone to build fast, beautiful, and intuitive user interfaces. He graduated from MIT in 2014 and loves traveling, DJing, and dancing.',
   }, {
@@ -92,13 +92,13 @@ module.exports = {
   }, {
     name: 'Ben Newman',
     picture: 'ben.jpg',
-    title: 'Tech Lead : Meteor',
+    title: 'Tech Lead : Meteor OSS',
     twitter: 'benjamn',
     bio: 'A common thread that runs through Ben’s history of employment at Meebo, Apture, Mozilla, Quora, Facebook, and Meteor is a passion for exploring the limits of dynamic programming languages. Many of his most recent projects have involved large-scale automatic code transformation that would be difficult or impossible without the tools he has developed, namely recast and ast-types. He implemented Quora’s rich-text answer editor and Facebook’s Regenerator project, remains an active React contributor, and represents Meteor in the TC39 JavaScript standards process. The future of JavaScript can’t get here soon enough, as far as Ben is concerned.',
   }, {
     name: 'David Glasser',
     picture: 'glasser.jpg',
-    title: 'Tech Lead : Galaxy',
+    title: 'Tech Lead : Galaxy Backend',
     twitter: 'glasser',
     bio: 'David has been creating developer tools since 2005. He was an active contributor to the Subversion and SVK version control systems, and most recently spent five years at Google rebuilding the infrastructure behind the world\'s largest atomically versioned source code repository. For his master\'s thesis at MIT he built an automated test generator for Java software using dynamic analysis. David is a founding member of Langton Labs, a residential community for artists and scientists in San Francisco established in 2007, where he has hosted dozens of events ranging from combination DJ/cooking competitions to Balinese gamelan concerts.',
   }, {
@@ -134,7 +134,7 @@ module.exports = {
   }, {
     name: 'Tim Hingston',
     picture: 'tim.jpg',
-    title: 'Core Developer',
+    title: 'Tech Lead : Galaxy Frontend',
     twitter: 'timbotnik',
     bio: 'Tim joined Meteor via Percolate Studio, where he helped build and maintain several high-scale Meteor apps. Now a seasoned software architect and engineer, he started out analyzing real-time brain imaging data from fMRI scanners as an undergrad at Duke University. Since deciding not to become a neuroscientist, he’s worked on fault-tolerant video streaming systems for MobiTV, mobile apps for the Discovery Channel and Tesla, and an ever-growing list of cloud web services. When he\'s not coding, Tim is known to grab a guitar and hit the road. He\'s toured with several indie bands, including appearances at SXSW and on MTV, and generally loves all things music.',
   }, {
