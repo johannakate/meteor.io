@@ -180,5 +180,7 @@ module.exports = {
     twitter: 'calebmer',
     bio: '',
   }],
-  partners: ['andressen.png', 'combinator.png', 'heavybit.png', 'matrix.png', 'trinity.png'],
+  investors: ['andressen.png', 'combinator.png', 'heavybit.png', 'matrix.png', 'trinity.png'],
+  partners1: ['airbnb.png', 'facebook.png', 'open-table.png', 'ticketmaster.png', 'heroku.png', 'yelp.png', 'ikea.png'],
+  partners2: ['udacity.png', 'new-york-times.jpg', 'product-hunt.png', 'shopify.png', 'coursera.png', 'qualcomm.png', 'mazda.jpg'],
 }

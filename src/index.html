@@ -5,90 +5,148 @@
     {{> navbar}}
 
     <div class="hero">
-      <div class="pictures-section" id="company"></div>
+      <div class="pictures-section" id="company">
+        <div class="image" style="background-image: url('/img/company/1.jpg')"></div>
+      </div>
       <h1>Meteor Development Group</h1>
+      <h3>The open-source company that brings you tools for JavaScript and GraphQL</h3>
       <a class="jobs button" href="/jobs">See open positions</a>
-    </div>
-
-    <div class="products">
-      <div class="apollo">
-        <img src="img/logo/apollo.svg" />
-        <p>
-          We build Apollo, a set of open-soure libraries and commercial tools for using GraphQL, and Optics,
-          a Performance Monitoring tool for GraphQL servers. Our GraphQL web client, Apollo Client, is more
-          popular than Relay and way better than Relay 2 so you should use it. Also, you should use our iOS
-          client, try our devtools, read our blog, follow us on twitter, join our slack, and be our friend.
-        </p>
-        <p>
-          Optics is the best GraphQL APM tool out there, so you should sign up. It has nice graphs that give you
-          insights into the time it takes your GraphQL queries to resolve. It can help you pinpoint hotspots in
-          your resolvers and monitor the performance of your app overall. Its graphs are super interactive, and its
-          gradients are dope.
-        </p>
-        <div class="icons">
-          <span class="icon icon-twitter"></span>
-          <span class="icon icon-facebook"></span>
-          <span class="icon icon-github"></span>
-          <span class="icon icon-youtube"></span>
-          <span class="icon icon-slack"></span>
-        </div>
-        <div class="link"><a>Home</a></div>
-      </div>
-      <div class="meteor">
-        <img src="img/logo/meteor.svg" />
-        <p>
-          We make Meteor, the popular JavaScript framework for building collaborative apps, and Galaxy,
-          the premiere hosting provider for Meteor apps. It's super great, and it helps people build apps
-          as quickly and easily as possible. It exists both to make development easier and more accessible
-          to everyone, but also to be the best, shiniest, and most modern framework for JavaScript app
-          development.
-        </p>
-        <p>
-          We also make Galaxy, the best, easiest, and most reliable way to host Meteor apps. Turns out
-          hostin Meteor apps at scale can be difficult, but with Galaxy it's super easy. Galaxy also has
-          performance monitoring, easy scaling, real-time data graphs, logs, IP whitelisting, and a lot
-          more awesome stuff.
-        </p>
-        <div class="icons">
-          <span class="icon icon-twitter"></span>
-          <span class="icon icon-facebook"></span>
-          <span class="icon icon-github"></span>
-          <span class="icon icon-youtube"></span>
-          <span class="icon icon-slack"></span>
-        </div>
-        <div class="link"><a>Home</a></div>
-      </div>
     </div>
 
     <h4 class="subtitle">Who we are</h4>
 
     <p>
       We are an open-source company dedicated to helping developers build great apps. All of us here
-      want to make software development easier, better, and more accessible to more
-      people.  We are a talented team of about 20 people spread across the globe. We are proud of our
-      flexible and remote-first work culture.
+      want to make software development easier, better, and accessible to more people. We are a
+      talented team of about 20 people spread across the globe, and we're proud of our flexible and
+      remote-first work culture.
     </p>
 
     <p class="quote">
-      We are the best because we make super cool stuff and we're awesome people.
+      We're on a mission to change the way software is developed.
     </p>
     <p class="speaker">- Geoff Schmidt, CEO</p>
 
     <h4 class="subtitle">What we do</h4>
 
+    <div class="products">
+      <div class="apollo">
+        <img src="img/logo/apollo.svg" />
+        <p>
+          We build Apollo, a family of tools that exists to support developers using GraphQL. Our open-source
+          client, Apollo Client, is the most popular GraphQL client for React and mobile apps, our
+          performance monitoring tool, Optics, is the only APM tool built specifically for GraphQL, and
+          is a crucial tool for developers running GraphQL in production. We're proud of the partnerships
+          we've made with other companies and thought leaders to grow GraphQL together.
+        <div class="link">
+          <a target="_blank" href="http://www.apollodata.com/">Home<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://dev-blog.apollodata.com/">Blog<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://twitter.com/apollographql">Twitter<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://github.com/apollographql">Github<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://www.youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw">Youtube<span class="icon icon-arrow-right"></span></a>
+        </div>
+      </div>
+      <div class="meteor">
+        <img src="img/logo/meteor.svg" />
+        <p>
+          We build Meteor, the most popular full-stack framework for building real-time apps with modern JavaScript,
+          and Galaxy, the premiere hosting provider and performance monitoring solution for Meteor apps.
+          Thousands of companies, and hundreds of thousands of developers, have built their products on
+          top of the Meteor framework, and we're very proud of the relationships we've cultivated with
+          our community.
+        </p>
+        <div class="link">
+          <a target="_blank" href="https://www.meteor.com/">Home<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://blog.meteor.com/">Blog<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://twitter.com/meteorjs">Twitter<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://github.com/meteor">Github<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://www.youtube.com/user/MeteorVideos">Youtube<span class="icon icon-arrow-right"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      We have years of experience in the open-source community. We build and maintain tools used by
+      thousands of developers in production, and we're very proud not only of the products we make,
+      but of the relationships and partnerships we've cultivated with other developers and companies.
+      Here are some of the companies we've worked with:
+    </p>
+
+    <div class="partners">
+      {{#each partners1}}
+        <div class="partner" style="background-image: url('/img/partners/{{this}}')"></div>
+      {{/each}}
+    </div>
+    <div class="partners">
+      {{#each partners2}}
+        <div class="partner" style="background-image: url('/img/partners/{{this}}')"></div>
+      {{/each}}
+    </div>
+
+    <h4 class="subtitle">Our positions</h4>
+
     <p>
       Whether it's building a new open source tool, improving a production-critical system,
       or organizing a cutting-edge community event, we spend our time wisely to have an oversized
-      impact with a small team. Check out some of the projects we've tackled recently:
+      impact with a small team. See where you fit in:
     </p>
 
-    <p>
-      We have years experience in the open-source community, building and maintaining tools used by
-      thousands of developers in production. We have great open source communities, great commercial
-      partners and customers, great 
-    </p>
+    <div class="team featurettes">
+      <div class="featurette">
+        <img src="img/illustration/illustration-github.svg" />
+        <div class="title">Open Source Engineering</div>
+        <div>
+          Help us build the future of GraphQL and define modern JavaScript by being a thought leader
+          and evangelist.
+        </div>
+        <div class="link"><a href="/jobs/#5e11e6cf-5303-4c12-a3e7-11e5f8da4be1">Learn more <span class="icon icon-arrow-right"></span></a></div>
+      </div>
+      <div class="featurette">
+        <img src="img/illustration/illustration-robust.svg" />
+        <div class="title">Cloud Systems Engineering</div>
+        <div>
+          Build secure and scalable distributed systems using the latest technologies.
+        </div>
+        <div class="link"><a href="/jobs/#9de2d23b-fd3c-421e-92b1-26203c60f1b1">Learn more <span class="icon icon-arrow-right"></span></a></div>
+      </div>
+      <div class="featurette">
+        <img src="img/illustration/illustration-compass.svg" />
+        <div class="title">Frontend Application Engineering</div>
+        <div>
+          Be a thought leader, community evangelist, etc.
+        </div>
+        <div class="link"><a href="/jobs/#959865c0-73b9-4938-91ec-ed69fabeec24">Learn more <span class="icon icon-arrow-right"></span></a></div>
+      </div>
+    </div>
 
-    <div class="people featurettes">
+    <div class="team featurettes">
+      <div class="featurette">
+        <img src="img/illustration/illustration-reactive.svg" />
+        <div class="title">Backend Service Engineering</div>
+        <div>
+          Be a thought leader, community evangelist, etc.
+        </div>
+        <div class="link"><a href="/jobs/#b8ec842e-e79a-455e-a665-b312892d946e">Learn more <span class="icon icon-arrow-right"></span></a></div>
+      </div>
+      <div class="featurette">
+        <img src="img/illustration/illustration-chat.svg" />
+        <div class="title">Product Managment</div>
+        <div>
+          Be a thought leader, community evangelist, etc.
+        </div>
+        <div class="link"><a href="/jobs/#df91b724-8dc7-4f15-9beb-0554261c8379">Learn more <span class="icon icon-arrow-right"></span></a></div>
+      </div>
+      <div class="featurette">
+        <img src="img/illustration/illustration-containers.svg" />
+        <div class="title">Design</div>
+        <div>
+          Be a thought leader, community evangelist, etc.
+        </div>
+        <div class="link"><a href="/jobs/#e545fc3a-8cd2-4faf-8653-bf83d2e35a8b">Learn more <span class="icon icon-arrow-right"></span></a></div>
+      </div>
+    </div>
+
+    <!-- <div class="people featurettes">
       {{#each featurette}}
         <a class="featurette card" href="{{link}}" target="_blank">
           <div class="flipper">
@@ -106,17 +164,8 @@
           </div>
         </a>
       {{/each}}
-    </div>
-
-    <p class="bottom jobs link">
-      <a href="/jobs">Join us <span class="icon icon-arrow-right"></span></a>
-    </p>
+    </div> -->
 
     {{> footer}}
-
-    <script>
-      var pictures = [1,6,3,2,5,8,4,7].map(p => `<div id="company-${p}" class="image" style="background-image: url('/img/company/${p}.jpg')"></div>`);
-      document.getElementById('company').innerHTML = pictures.join('');
-    </script>
   </body>
 </html>

@@ -1,23 +1,61 @@
 @import './colors.import.less';
 
-.products {
+.products,
+.featurettes {
   display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+
+  & + .featurettes {
+    margin-top: -30px;
+  }
+
+  .featurette {
+    img {
+      height: 40px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
   p {
     padding: 0;
   }
 
-  .icons {
-    text-align: center;
+  .link {
+    margin-top: 10px;
+    transition: all 300ms ease-out;
+    cursor: pointer;
+
+    a:hover {
+      color: @color-apollo;
+      transition: all 300ms ease-out;
+    }
+
+    a {
+      color: @color-darkest;
+      text-decoration: none;
+    }
+
+    .icon.icon-arrow-right {
+      margin-right: 10px;
+      font-size: 8px;
+    }
   }
 
-  .apollo,
-  .meteor {
+  > div {
+    margin: 0 5px;
     flex: 1;
-    padding: 20px 50px;
+    padding: 20px;
     background-repeat: no-repeat;
-    color: #fff;
     font-size: 12px;
+    border: 1px solid #eee;
 
     .link {
       font-weight: bold;
@@ -25,26 +63,18 @@
     }
 
     img {
-      height: 50px;
+      height: 30px;
       display: block;
       margin: 0 auto 5px;
     }
   }
 
   .apollo {
-    padding-left: 100px;
-    // background-image: url('img/bg-apollo.svg');
-    background-color: @color-apollo;
     background-size: 70%;
-    background-position: top right;
   }
 
   .meteor {
-    padding-right: 100px;
-    // background-image: url('img/bg-meteor.png');
-    background-color: @color-meteor;
     background-size: contain;
-    background-position: center;
   }
 }
 
@@ -52,7 +82,6 @@
 h1, h2, h3 {
   font-weight: 100;
   max-width: 680px;
-  text-align: center;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -63,9 +92,8 @@ h1 {
 }
 
 h2 {
-  text-align: center;
   font-size: 26px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 50px auto 20px;
 }
 
@@ -112,9 +140,10 @@ p {
     &:before {
       content: "​‌“";
       position: absolute;
-      // font-family: 'Droid serif';
       font-size: 100px;
       left: -10px;
+      top: 13px;
+      opacity: 0.3;
     }
   }
 
@@ -125,17 +154,8 @@ p {
   }
 }
 
-// a {
-//   color: @color-meteor;
-//   text-decoration: none;
-//
-//   &:hover {
-//     text-decoration: underline;
-//   }
-// }
-
 .hero {
-  height: ~"calc(100vh - 80px)";
+  height: ~"calc(100vh - 20%)";
   min-height: min-content;
   max-height: 700px;
   padding: 100px;
@@ -159,30 +179,35 @@ p {
   h1 {
     font-weight: bold;
     line-height: 48px;
-    margin-bottom: 25px;
     text-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  h3 {
+    margin-bottom: 25px;
+    font-weight: 500;
   }
 
   .jobs.button {
     border-radius: 20px;
-      width: 250px;
-      padding: 10px 20px;
-      border: 1px solid #fff;
-      text-align: center;
-      font-weight: 700;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: all 300ms ease-out;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      text-decoration: none;
-      color: #fff !important;
+    width: 250px;
+    padding: 10px 20px;
+    // border: 1px solid #fff;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    // text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: #fff !important;
+    background-color: @color-apollo;
 
-      &:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        transition: all 300ms ease-out;
-      }
+    &:hover {
+      background-color: #1e9185;
+      transition: all 300ms ease-out;
+    }
   }
 
   .pictures-section {
@@ -202,38 +227,21 @@ p {
       position: absolute;
       top: 0;
       left: 0;
-      // background-color: rgba(0, 0, 0, 0.5);
-      background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 15%, rgba(0,0,0,0.2) 60%,rgba(0,0,0,0) 100%);
+      background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 15%, rgba(0,0,0,0.3) 60%,rgba(0,0,0,0) 100%);
     }
   }
 
   .pictures-section .image {
     vertical-align: top;
     display: inline-block;
-    width: 25%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     margin: 0;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    filter: grayscale(75%);
+    filter: grayscale(40%);
   }
-
-  // @media (max-width: 1000px) {
-  //   .pictures-section {
-  //     padding: 0 40px;
-  //     width: auto;
-  //   }
-  //
-  //   .pictures-section .image {
-  //     width: ~"calc(20%)";
-  //     height: 2300px;
-  //   }
-  //
-  //   .pictures-section .image.double {
-  //     width: ~"calc(40%)";
-  //   }
-  // }
 
   h2.tagline {
     text-align: center;
@@ -443,6 +451,7 @@ p {
 
         &.active a {
           color: @color-meteor;
+          font-weight: bold;
         }
 
         &:hover a {
@@ -509,14 +518,6 @@ p {
     padding: 0 20px !important;
 
     a.logo {
-      display: none;
-    }
-  }
-
-  .hero .pictures-section .image {
-    width: 50%;
-
-    &:nth-child(even) {
       display: none;
     }
   }
