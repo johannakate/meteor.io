@@ -70,11 +70,27 @@
   }
 
   .apollo {
-    background-size: 70%;
+    border-color: @color-apollo;
+
+    a {
+      color: @color-apollo;
+
+      &:hover {
+        color: lighten(@color-apollo, 10%);
+      }
+    }
   }
 
   .meteor {
-    background-size: contain;
+    border-color: @color-meteor;
+
+    a {
+      color: @color-meteor;
+
+      &:hover {
+        color: lighten(@color-meteor, 10%);
+      }
+    }
   }
 }
 
