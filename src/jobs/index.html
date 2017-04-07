@@ -163,8 +163,14 @@
         $main.append('<div>' + job.description + '</div>');
 
         job.lists.forEach(function (list) {
-          $main.append('<b>' + list.text + '</b>');
-          $main.append('<ul>' + list.content + '</ul>');
+          // $main.append('<b>' + list.text + '</b>');
+          // $main.append('<ul>' + list.content + '</ul>');
+          $main.append(`
+            <div>
+              <b>${list.text}</b>
+              <ul>${list.content}</ul>
+            </div>
+          `);
         });
 
         $main.append('<div>' + job.additional + '</div>');
