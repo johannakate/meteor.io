@@ -31,13 +31,12 @@
       {{#each people}}
         <a class="card" href="https://twitter.com/{{ twitter }}" target="_blank">
           <div class="flipper">
-            <div class="front">
+            <div class="front" style="background-image: url('/img/company/team/{{ picture }}')">
               <div class="overlay">
                 <div class="name">{{name}}</div>
                 <div class="position">{{#if founder}}<span class="founder">Founder</span>{{/if}}{{title}}</div>
               </div>
             </div>
-            <img class="picture" src="/img/people/{{ picture }}" />
             <div class="back">
               {{#if twitter}}<div class="twitter">@{{twitter}}</div>{{/if}}
               <div class="bio">{{ bio }}</div>

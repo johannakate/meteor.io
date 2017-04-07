@@ -20,6 +20,12 @@
       and personally.
     </p>
 
+    <div class="culture-pics">
+      <div class="culture-1"></div>
+      <div class="culture-2"></div>
+      <div class="culture-3"></div>
+    </div>
+
     <h4 class="subtitle">Life at MDG</h4>
 
     <p>
@@ -27,9 +33,15 @@
       often paired with a hot sauce carefully chosen from our curated “hot sauce wall” by our in-house
       expert, Nick Martin (CTO/Co-Founder). For those who are around in the evenings, we also eat dinner
       together, ordering food from a selection of our favorite local restaurants. We have daily
-      traditions like going for coffee walks to local shops on beautiful SF days, and going out to dinner
+      traditions like going for coffee walks on beautiful SF days, and going out to dinner
       together on Friday, especially when our remoterites are in town.
     </p>
+
+    <div class="culture-pics">
+      <div class="culture-4"></div>
+      <div class="culture-5"></div>
+      <div class="culture-6"></div>
+    </div>
 
     <p>
       Core to our culture is also interacting with our open source community. Once a month we host a
@@ -37,22 +49,27 @@
       to talks, celebrate, etc.
     </p>
 
-    <!-- <p>
-      Whenever our remote employees are visiting town, we make an extra effort to celebrate.
-    </p>
+    <div class="culture-pics">
+      <div class="culture-7"></div>
+      <div class="culture-8"></div>
+      <div class="culture-9"></div>
+    </div>
 
     <p>
       We do fun team building events, host conferences, host meetups, get dinner together, go on trips,
       etc. Every quarter(?) we have everyone on our team fly to SF headquarters, usually for some
       sort of launch, and we plan team events while everyone is in town.
-    </p> -->
+
+      There's a difference between work culture and social culture. Our employees attend a lot of
+      conferences.
+    </p>
 
     <div class="culture pictures" id="pictures"></div>
 
     {{> footer}}
 
     <script>
-      var pictures = [2,3,7,5,1].map(p => `<div class="image${p === 5 ? ' double' : ''}" style="background-image: url('/img/team/${p}.jpg')"></div>`);
+      var pictures = [2,3,7,5,1].map(p => `<div class="image${p === 5 ? ' double' : ''}" style="background-image: url('/img/company/culture/${p}.jpg')"></div>`);
       document.getElementById('pictures').innerHTML = pictures.join('');
     </script>
   </body>

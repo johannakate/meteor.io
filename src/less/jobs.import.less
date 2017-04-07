@@ -1,0 +1,226 @@
+.job-pics,
+.culture-pics {
+  max-width: 800px;
+  display: flex;
+  margin: 40px auto;
+
+  > div {
+    flex: 1;
+    margin: 0 5px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: @color-mediumlight;
+  }
+
+  .job-1 { background-image: url(/img/company/jobs/1.jpg); }
+  .job-2 { background-image: url(/img/company/jobs/2.jpg); }
+  .job-3 { background-image: url(/img/company/jobs/3.jpg); }
+  .job-4 { background-image: url(/img/company/jobs/4.jpg); }
+  .job-5 { background-image: url(/img/company/jobs/5.jpg); }
+  .job-6 { background-image: url(/img/company/jobs/6.jpg); }
+
+  .culture-1 { background-image: url(/img/company/culture/8.jpg); }
+  .culture-2 { background-image: url(/img/company/culture/9.jpg); }
+  .culture-3 { background-image: url(/img/company/culture/10.jpg); }
+  .culture-4 { background-image: url(/img/company/culture/11.jpg); }
+  .culture-5 { background-image: url(/img/company/culture/12.jpg); }
+  .culture-6 { background-image: url(/img/company/culture/13.jpg); }
+  .culture-7 { background-image: url(/img/company/culture/14.jpg); }
+  .culture-8 { background-image: url(/img/company/culture/15.jpg); }
+  .culture-9 { background-image: url(/img/company/culture/16.jpg); }
+}
+
+#jobs {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 50px auto 0;
+  min-height: 400px;
+
+  #jobs-sidebar {
+    flex: none;
+    min-width: 300px;
+    width: ~"calc(50% - 160px)";
+    text-align: right;
+    padding: 0 40px;
+    border-right: 1px solid @color-mediumlight;
+
+    h2 {
+      text-transform: uppercase;
+      letter-spacing: .35em;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: right;
+      margin: 0 0 10px auto;
+      line-height: 39px;
+      vertical-align: middle;
+      text-align: right;
+      padding: 0;
+    }
+
+    #jobs-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 5px 0;
+        position: relative;
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          border: none;
+          font-weight: 400;
+          transition: all 250ms ease-out;
+          color: @color-darkest;
+
+          &:before, &:after {
+            font-family: 'percolate';
+            position: absolute;
+            line-height: 22px;
+            vertical-align: middle;
+            transition: all 250ms ease-out;
+            opacity: 0;
+            color: @color-meteor;
+          }
+
+          &:before {
+            content: "\e615";
+            left: -20px;
+          }
+
+          &:after {
+            content: "\e614";
+            right: -20px;
+          }
+        }
+
+        &.active a {
+          color: @color-meteor;
+        }
+
+        &:hover a {
+          color: @color-meteor;
+
+          &:after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  #jobs-main {
+    flex: 1;
+    padding: 0 40px;
+    // font-size: 13px;
+
+    > * {
+      max-width: 620px;
+      margin-left: 0;
+      text-align: left;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      text-align: left;
+      margin: 0 0 10px;
+      padding: 0;
+      cursor: pointer;
+      transition: all 300ms ease-out;
+
+      .icon-link {
+        margin-left: 5px;
+        font-size: 14px;
+      }
+
+      &:hover {
+        color: @color-meteor;
+        transition: all 300ms ease-out;
+      }
+    }
+
+    ul {
+      margin: 0;
+    }
+
+    a:not(.btn) {
+      color: @color-meteor;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    a.btn {
+      float: right;
+      margin: 0 20px 20px;
+    }
+
+    b {
+      margin-top: 10px;
+      display: inline-block;
+    }
+  }
+}
+
+@media(max-width: 700px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .navbar {
+    padding: 0 20px !important;
+
+    a.logo {
+      display: none;
+    }
+  }
+
+  .featurette-container {
+    .featurette {
+      width: 100%;
+      height: 100px;
+    }
+  }
+
+  .benefits {
+    .benefits-item {
+      width: 100%;
+    }
+  }
+
+  #jobs {
+    flex-direction: column;
+
+    #jobs-sidebar {
+      background-image: linear-gradient(190deg, #e5f2de 0%, #fff 50%);
+      width: 100%;
+      text-align: left;
+
+      h2 {
+        text-align: left;
+      }
+
+      #jobs-list {
+        li {
+          &:hover {
+            a {
+              &:before {
+                opacity: 1;
+              }
+              &:after {
+                opacity: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

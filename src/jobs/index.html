@@ -18,13 +18,25 @@
       respectful, and apolitical.
     </p>
 
-    <h4 class="subtitle">Open positions</h4>
+    <div class="job-pics">
+      <div class="job-1"></div>
+      <div class="job-2"></div>
+      <div class="job-3"></div>
+    </div>
+
+    <h4 class="subtitle">Our positions</h4>
 
     <div id="jobs">
       <div id="jobs-sidebar">
         <ul id="jobs-list"></ul>
       </div>
       <div id="jobs-main"></div>
+    </div>
+
+    <div class="job-pics">
+      <div class="job-4"></div>
+      <div class="job-5"></div>
+      <div class="job-6"></div>
     </div>
 
     <h4 class="subtitle">Global Team</h4>
@@ -43,15 +55,17 @@
       SF-based team every quarter.
     </p>
 
-    <div class="worldmap"></div>
-
-    <div class="hq-address">
+    <!-- <div class="hq-address">
       <b>Headquarters</b>
       <div class="small">
         <div>140 10th Street</div>
         <div>San Francisco, CA 94103</div>
       </div>
-    </div>
+    </div> -->
+
+    <div class="worldmap"></div>
+
+    <div class="team-photo"></div>
 
     <h4 class="subtitle">Benefits & Perks</h4>
 
@@ -133,19 +147,23 @@
       function displayJob(job, $jobsListItem) {
         $main.empty();
 
-        var $jobTitle = $('<h2>' + job.text + '<span class="icon-link"><span/></h2>');
+        var $jobTitle = $(`
+          <h3>
+            ${job.text}
+            <span class="icon-link"><span/>
+            <a href="${job.applyUrl}" class="btn" target="_blank">Apply now</a>
+          </h3>
+        `);
 
         $jobTitle.on('click', function () {
           window.location.hash = job.id;
         });
 
         $main.append($jobTitle);
-
-        $main.append('<a href="' + job.applyUrl + '" class="btn" target="_blank">Apply now</a>');
         $main.append('<div>' + job.description + '</div>');
 
         job.lists.forEach(function (list) {
-          $main.append('<h3>' + list.text + '</h3>');
+          $main.append('<b>' + list.text + '</b>');
           $main.append('<ul>' + list.content + '</ul>');
         });
 
@@ -186,7 +204,7 @@
 
         if (window.location.hash) {
           // Only scroll to the job description if we are intentionally linking there
-          document.body.scrollTop = $main.offset().top;
+          document.body.scrollTop = $main.offset().top - 150;
         }
       });
     </script>
