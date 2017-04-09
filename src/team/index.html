@@ -29,7 +29,7 @@
 
     <div class="people">
       {{#each people}}
-        <div class="card" target="_blank">
+        <div class="card">
           <div class="flipper">
             <div class="front" style="background-image: url('/img/company/team/{{ picture }}')">
               <div class="overlay">
@@ -38,7 +38,7 @@
               </div>
             </div>
             <div class="back">
-              {{#if twitter}}<a href="https://twitter.com/{{ twitter }}" class="twitter">@{{twitter}}</a>{{/if}}
+              {{#if twitter}}<a target="_blank" href="https://twitter.com/{{ twitter }}" class="twitter">@{{twitter}}</a>{{/if}}
               <div class="bio">{{ bio }}</div>
             </div>
           </div>
