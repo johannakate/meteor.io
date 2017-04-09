@@ -17,74 +17,118 @@
 
 .featurettes {
   max-width: 800px;
+  position: relative;
+  text-align: center;
+  margin: 40px auto;
 
-  &.top {
-    margin-top: 40px;
-  }
-
-  &.bottom {
-    margin-bottom: 40px;
-  }
-
-  .featurette {
-    display: block;
-    flex: 1;
-    margin: 5px;
-    color: @color-lightest;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
+  .card {
+    // width: ~"calc(33.33333333% - 30px)" !important;
+    width: 220px !important;
+    height: 220px !important;
     position: relative;
 
-    &:hover {
-      .title {
-        text-decoration: underline;
+    .front {
+      background-size: cover;
+      .overlay {
+        position: absolute;
+        top: 50%;
+        margin-top: 0;
+        padding: 15px;
+        text-align: center;
       }
     }
 
-    .overlay {
-      position: absolute;
-      width: 100%;
-      height: 50%;
-      top: 50%;
-      left: 0;
-
-      background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+    .back {
+      padding: 15px;
       display: flex;
-      justify-content: flex-end;
       flex-direction: column;
-      padding: 5px 10px;
+      justify-content: flex-end;
 
-      .title {
-        font-size: 18px;
-        line-height: 18px;
-        font-weight: 900;
-        width: 100%;
-        text-align: left;
-        margin-bottom: 0;
+      .bio {
+        font-size: 14px;
+        flex: 1;
       }
 
-      .link {
+      .learn-more {
+        color: @color-lightest;
         font-size: 12px;
-        width: 100%;
+        padding: 0 10px;
+        flex: none;
         font-weight: bold;
-        color: rgba(255, 255, 255, 0.85);
+        text-align: center;
+        text-decoration: none;
 
-        .icon-arrow-right {
-          font-size: 8px;
+        .icon.icon-arrow-right {
+          font-size: 10px;
+        }
+
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
-
-    a {
-      color: @color-lightest;
-    }
   }
+
+  // .featurette {
+  //   width: ~"calc(33.33333333% - 30px)";
+  //   display: inline-block;
+  //   flex: 1;
+  //   margin: 5px;
+  //   color: @color-lightest;
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  //   height: 200px;
+  //   position: relative;
+  //   text-align: left;
+  //
+  //   &:hover {
+  //     .title {
+  //       text-decoration: underline;
+  //     }
+  //   }
+  //
+  //   .overlay {
+  //     position: absolute;
+  //     width: 100%;
+  //     height: 50%;
+  //     top: 50%;
+  //     left: 0;
+  //
+  //     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+  //     display: flex;
+  //     justify-content: flex-end;
+  //     flex-direction: column;
+  //     padding: 5px 10px;
+  //
+  //     .title {
+  //       font-size: 18px;
+  //       line-height: 18px;
+  //       font-weight: 900;
+  //       width: 100%;
+  //       text-align: left;
+  //       margin-bottom: 0;
+  //     }
+  //
+  //     .link {
+  //       font-size: 12px;
+  //       width: 100%;
+  //       font-weight: bold;
+  //       color: rgba(255, 255, 255, 0.85);
+  //
+  //       .icon-arrow-right {
+  //         font-size: 8px;
+  //       }
+  //     }
+  //   }
+  //
+  //   a {
+  //     color: @color-lightest;
+  //   }
+  // }
 }
 
-.products,
-.featurettes {
+.products {
   display: flex;
   margin: 0 auto;
 

@@ -154,4 +154,35 @@ module.exports = {
   investors: ['andressen.png', 'combinator.png', 'heavybit.png', 'matrix.png', 'trinity.png'],
   partners1: ['airbnb.png', 'facebook.png', 'open-table.png', 'ticketmaster.png', 'heroku.png', 'yelp.png', 'ikea.png'],
   partners2: ['udacity.png', 'new-york-times.jpg', 'product-hunt.png', 'shopify.png', 'coursera.png', 'qualcomm.png', 'mazda.jpg'],
+  jobs: [{
+    id: 'df91b724-8dc7-4f15-9beb-0554261c8379',
+    title: 'Product Management',
+    description: 'hello world',
+    image: 'product-management.jpg',
+  },{
+    id: '9de2d23b-fd3c-421e-92b1-26203c60f1b1',
+    title: 'Cloud Systems Engineering',
+    description: 'Help shape the evolution of the modern cloud architecture.',
+    image: 'cloud-services.jpg',
+  },{
+    id: '959865c0-73b9-4938-91ec-ed69fabeec24',
+    title: 'Frontend Application Engineering',
+    description: 'Design and build interactive components and data-rich experiences for other developers just like you.',
+    image: 'frontend.jpg',
+  },{
+    id: 'b8ec842e-e79a-455e-a665-b312892d946e',
+    title: 'Backend Service Engineering',
+    description: 'Build the foundations and APIs of our tools for GraphQL and JavaScript developers.',
+    image: 'backend.jpg',
+  },{
+    id: '5e11e6cf-5303-4c12-a3e7-11e5f8da4be1',
+    title: 'Open Source Engineering',
+    description: 'Help us build open source GraphQL and JavaScript libraries and tools, share our ideas with the GraphQL community, and collaborate with other companies and projects to move GraphQL forward.',
+    image: 'open-source.jpg',
+  },{
+    id: 'e545fc3a-8cd2-4faf-8653-bf83d2e35a8b',
+    title: 'Design',
+    description: 'hello world',
+    image: 'design.png',
+  }],
 }

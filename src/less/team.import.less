@@ -40,7 +40,6 @@
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
-    cursor: pointer;
     position: relative;
     margin: 5px;
     text-align: left;
@@ -206,6 +205,19 @@
       font-size: 12px;
       padding: 10px;
       font-weight: 600;
+      display: block;
+      cursor: pointer;
+      color: #fff !important;
+      text-decoration: none;
+
+      &:visited {
+        color: #fff !important;
+        text-decoration: none;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
 
       &:before {
         content: "";

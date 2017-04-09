@@ -87,46 +87,23 @@
       team. See where you fit in:
     </p>
 
-    <div class="team featurettes top">
-      <a class="featurette" style="background-image: url(/img/company/home/product-management.jpg)" href="/jobs/#df91b724-8dc7-4f15-9beb-0554261c8379">
-        <div class="overlay">
-          <div class="title">Product Managment</div>
-          <div class="link">Learn more<span class="icon icon-arrow-right"></span></div>
+    <div class="people featurettes">
+      {{#each jobs}}
+        <div class="card">
+          <div class="flipper">
+            <div class="front" style="background-image: url(/img/company/home/{{image}})">
+              <div class="overlay">
+                <div class="name">{{title}}</div>
+                <div class="position">{{subtitle}}</div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="bio">{{description}}</div>
+              <a class="learn-more" href="/jobs/#{{id}}">Learn more <span class="icon icon-arrow-right"></span></a>
+            </div>
+          </div>
         </div>
-      </a>
-      <a class="featurette" style="background-image: url(/img/company/home/cloud-services.jpg)" href="/jobs/#9de2d23b-fd3c-421e-92b1-26203c60f1b1">
-        <div class="overlay">
-          <div class="title">Cloud Systems Engineering</div>
-          <div class="link">Learn more<span class="icon icon-arrow-right"></span></div>
-        </div>
-      </a>
-      <a class="featurette" style="background-image: url(/img/company/home/frontend.jpg)" href="/jobs/#959865c0-73b9-4938-91ec-ed69fabeec24">
-        <div class="overlay">
-          <div class="title">Frontend App Engineering</div>
-          <div class="link">Learn more<span class="icon icon-arrow-right"></span></div>
-        </div>
-      </a>
-    </div>
-
-    <div class="team featurettes bottom">
-      <a class="featurette" style="background-image: url(/img/company/home/backend.jpg)" href="/jobs/#b8ec842e-e79a-455e-a665-b312892d946e">
-        <div class="overlay">
-          <div class="title">Backend Service Engineering</div>
-          <div class="link">Learn more<span class="icon icon-arrow-right"></span></div>
-        </div>
-      </a>
-      <a class="featurette" style="background-image: url(/img/company/home/open-source.jpg)" href="/jobs/#5e11e6cf-5303-4c12-a3e7-11e5f8da4be1">
-        <div class="overlay">
-          <div class="title">Open Source Engineering</div>
-          <div class="link">Learn more<span class="icon icon-arrow-right"></span></div>
-        </div>
-      </a>
-      <a class="featurette" style="background-image: url(/img/company/home/design.png)" href="/jobs/#e545fc3a-8cd2-4faf-8653-bf83d2e35a8b">
-        <div class="overlay">
-          <div class="title">Design</div>
-          <div class="link">Learn more <span class="icon icon-arrow-right"></span></div>
-        </div>
-      </a>
+      {{/each}}
     </div>
 
     {{> footer}}
