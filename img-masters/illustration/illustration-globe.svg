@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px"
+	 height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<g id="Layer_1">
+	<path fill="#BDA671" d="M80,2c43.01,0,78,34.99,78,78s-34.99,78-78,78S2,123.01,2,80S36.99,2,80,2 M80,0C35.816,0,0,35.817,0,80
+		s35.816,80,80,80c44.182,0,80-35.817,80-80S124.182,0,80,0L80,0z"/>
+	<rect x="79" fill="#BDA671" width="2" height="160"/>
+	<g>
+		<defs>
+			<circle id="SVGID_3_" cx="79.999" cy="80" r="80"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<polyline clip-path="url(#SVGID_2_)" fill="#BDA671" points="181.587,33 181.587,35 -21.589,35 -21.589,33 		"/>
+		<polyline clip-path="url(#SVGID_2_)" fill="#BDA671" points="-21.589,96 -21.589,94 181.587,94 181.587,96 		"/>
+		<polyline clip-path="url(#SVGID_2_)" fill="#BDA671" points="181.587,64 181.587,66 -21.589,66 -21.589,64 		"/>
+		<polyline clip-path="url(#SVGID_2_)" fill="#BDA671" points="181.587,125 181.587,127 -21.589,127 -21.589,125 		"/>
+	</g>
+	<g>
+		<g>
+			<path fill="#BDA671" d="M79.999,2c9.713,0,18.962,7.925,26.042,22.314c7.304,14.841,11.325,34.617,11.325,55.686
+				s-4.021,40.845-11.325,55.686C98.961,150.075,89.712,158,79.999,158s-18.961-7.925-26.042-22.314
+				C46.653,120.845,42.632,101.068,42.632,80s4.021-40.845,11.325-55.686C61.038,9.925,70.286,2,79.999,2 M79.999,0
+				C58.257,0,40.632,35.817,40.632,80s17.625,80,39.367,80s39.367-35.817,39.367-80S101.741,0,79.999,0L79.999,0z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>

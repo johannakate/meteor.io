@@ -136,7 +136,7 @@ const people = [{
   bio: 'Uri is the developer of the popular angular-meteor library and core developer at Meteor. Before that Uri has worked as a programmer, team manager and architect in a large defence company building infrastructure for tactical information systems. Uri was the first employee of Bink, a startup for the banking industry, where he learned and later lectured on Angular at Google and ng-conf. He also started his own software company specializing in large scale web applications, mostly for the health care industry. Uri is also an experienced guitar player and teacher.',
 }, {
   name: 'Pierre Carrier',
-  picture: 'pierre.jpeg',
+  picture: 'pierre.jpg',
   title: 'Tech Lead : Optics',
   twitter: 'pcarrier',
   bio: 'Pierre specializes in distributed systems and currently serves on the platform engineering team at Meteor. He has served prior roles at Twitter, Airbnb, Spotify, and Red Hat. Pierre has lived in France, United Kingdom, Sweden, Germany, and now a combination of San Francisco and Canada. Outside of work, Pierre maintains an impressive collection of keyboards, and has even designed his own, the Planck, a minimal keyboard now used by thousands. Also, he wanted us to mention that he\'s quite French.',
