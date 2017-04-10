@@ -157,22 +157,22 @@ module.exports = {
   jobs: [{
     id: 'df91b724-8dc7-4f15-9beb-0554261c8379',
     title: 'Product Management',
-    description: 'hello world',
+    description: 'Define and ship new product features while working closely with our engineering team. You\'ll be working on steering the direction of our commercial products, Optics and Galaxy, and our open source efforts, Apollo and Meteor.',
     image: 'product-management.jpg',
   },{
     id: '9de2d23b-fd3c-421e-92b1-26203c60f1b1',
     title: 'Cloud Systems Engineering',
-    description: 'Help shape the evolution of the modern cloud architecture.',
+    description: 'Help shape the evolution of the modern cloud architecture. You\'ll contribute to exciting new technologies and solve hard problems in distributed systems, scalability, cross-region coordination, and cloud orchestration.',
     image: 'cloud-services.jpg',
   },{
     id: '959865c0-73b9-4938-91ec-ed69fabeec24',
     title: 'Frontend Application Engineering',
-    description: 'Design and build interactive components and data-rich experiences for other developers just like you.',
+    description: 'Design and build interactive components and data-rich experiences for other developers just like you. Our products are built for developers by developers, and we care deeply about creating high-quality products with well-designed user experiences.',
     image: 'frontend.jpg',
   },{
     id: 'b8ec842e-e79a-455e-a665-b312892d946e',
     title: 'Backend Service Engineering',
-    description: 'Build the foundations and APIs of our tools for GraphQL and JavaScript developers.',
+    description: 'Build the foundations and APIs of our tools for GraphQL and JavaScript developers. Work closely with the rest of the product development team to help shape and deliver the components that make up our commercial cloud sevices.',
     image: 'backend.jpg',
   },{
     id: '5e11e6cf-5303-4c12-a3e7-11e5f8da4be1',
@@ -182,7 +182,7 @@ module.exports = {
   },{
     id: 'e545fc3a-8cd2-4faf-8653-bf83d2e35a8b',
     title: 'Design',
-    description: 'hello world',
+    description: 'Help product developers build great apps quickly. For us, the produt developer experience is essential, and we strive to build fun and intuitive products that feel right and work well.',
     image: 'design.png',
   }],
 }
