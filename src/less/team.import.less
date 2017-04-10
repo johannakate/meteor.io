@@ -15,15 +15,6 @@
   }
 }
 
-.team-photo {
-  margin: 40px auto;
-  height: 250px;
-  background-image: url(/img/company/jobs/team.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .people {
   font-size: 0;
   max-width: 900px;
@@ -253,11 +244,20 @@
   .partners {
     max-width: 360px;
   }
+
+  .partners {
+    display: block;
+
+    .partner {
+      height: 20px;
+      margin: 10px;
+    }
+  }
 }
 
 @media(max-width: 400px) { // 360 + buffer
   .people,
   .partners {
-    max-width: 180px;
+    text-align: center;
   }
 }

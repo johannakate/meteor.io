@@ -59,3 +59,27 @@
     }
   }
 }
+
+@media(max-width: 800px) { // 360 + buffer
+  .footer {
+    display: block;
+    padding: 20px 40px;
+    font-size: 0;
+
+    .section {
+      padding-right: 0;
+      font-size: 12px;
+
+      &:not(:first-of-type) {
+        margin-top: 20px;
+        display: inline-block;
+        width: 33.33333333%;
+        vertical-align: top;
+      }
+
+      > div {
+        margin: 0;
+      }
+    }
+  }
+}

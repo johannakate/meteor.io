@@ -3,6 +3,7 @@
   max-width: 800px;
   display: flex;
   margin: 40px auto;
+  padding: 0 35px;
 
   > div {
     flex: 1;
@@ -172,17 +173,34 @@
   }
 }
 
+.worldmap {
+  margin: 40px auto 0;
+  display: block;
+  max-width: 600px;
+  background-image: url('/img/map.svg');
+  height: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.team-photo {
+  margin: 40px auto;
+  height: 280px;
+  background-image: url(/img/company/jobs/team.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 600px;
+}
+
 @media(max-width: 700px) {
-  h1 {
-    font-size: 28px;
+  .worldmap {
+    margin: 40px;
   }
 
-  .navbar {
-    padding: 0 20px !important;
-
-    a.logo {
-      display: none;
-    }
+  .team-photo {
+    margin: 40px;
   }
 
   .featurette-container {
@@ -193,18 +211,27 @@
   }
 
   .benefits {
+    font-size: 0 !important;
+
     .benefits-item {
-      width: 100%;
+      width: 50% !important;
     }
   }
 
   #jobs {
     flex-direction: column;
+    margin-top: 0px;
+
+    #jobs-main {
+      a.btn {
+        margin: 10px;
+      }
+    }
 
     #jobs-sidebar {
-      background-image: linear-gradient(190deg, #e5f2de 0%, #fff 50%);
       width: 100%;
       text-align: left;
+      margin-bottom: 40px;
 
       h2 {
         text-align: left;
@@ -212,6 +239,10 @@
 
       #jobs-list {
         li {
+          &.active a:before {
+            opacity: 1;
+          }
+
           &:hover {
             a {
               &:before {
@@ -224,6 +255,14 @@
           }
         }
       }
+    }
+  }
+}
+
+@media(max-width: 500px) {
+  .benefits {
+    .benefits-item {
+      width: 100% !important;
     }
   }
 }
