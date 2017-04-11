@@ -32,7 +32,7 @@ const people = [{
 }, {
   name: 'Mark Trang',
   picture: 'trang.jpg',
-  title: 'VP Buisness Development',
+  title: 'VP Business Development',
   twitter: 'marktrang',
   bio: 'Ramen lover, certified rescue diver, adventure photographer, and omelette maker extraordinaire, Mark is in charge of business development and growth at MDG. We\'re still waiting to be invited to his private social club.',
 }, {
