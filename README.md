@@ -1,11 +1,18 @@
-# MDG Jobs Site
+# MDG Site
 
-This page is static, but we're using Less, so if you would like to develop the page without having
-to recompile the Less file to CSS every time you make a change, run:
+This is the MDG company site, deployed to [meteor.io](https://www.meteor.io/) via [Netlify](https://www.netlify.com/).
 
+If you'd like access to the Netlify deploy configuration, please contact [@stubailo](https://github.com/stubailo) or [@daniman](https://github.com/daniman).
+
+## Run the site
+We're using our static site generator `maw` ([make a website](https://github.com/meteor/website-tool)) to support Less, Handlebars, and hot reloading.
+
+
+You need to have `maw` installed to run this site:
 ```
-npm install
-npm run watch
+npm install --save-dev maw
 ```
 
-This will recompile the Less file for you automatically whenever it changes.
+While developing, run `maw dev` in the root of the project. This will watch the /src directory, and put the output in /build whenever a file changes
+
+For deployment, run `maw build` to build the site and put the output in the /build directory.
