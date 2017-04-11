@@ -52,7 +52,7 @@ const people = [{
   picture: 'zhenya.jpg',
   title: 'Engineering Manager',
   twitter: 'zhenyasaisquoi',
-  bio: 'Zhenya is our reigning office tennis champion, go-to guy for changing lightbulbs, and in-house polite Canadian. He wears many hats, including designer, engineer, manager, and general custodian for the Commercial Services team.',
+  bio: 'Zhenya is our reigning office tennis champion, go-to guy for changing lightbulbs, and in-house polite Canadian. He wears many hats, including designer, engineer, product manager, people manager, and general custodian for the Commercial Services team.',
 }, {
   name: 'Thea Lamkin',
   picture: 'thea.jpg',
@@ -112,7 +112,7 @@ const people = [{
   picture: 'faby.jpg',
   title: 'Office Manager',
   twitter: '',
-  bio: 'Faby has been with MDG longer than most people. She does a ton of stuff behind the scenes, including knowing what everyone\'s favorite cuisine is, keeping our office us running smoothy, and making sure everything in our kitchen is delicious.',
+  bio: 'Faby has been with MDG longer than most people. She does a ton of stuff behind the scenes, including knowing what everyone\'s favorite cuisine is, keeping our office running smoothy, and making sure everything in our kitchen is delicious!',
 }, {
   name: 'Jesse Rosenberger',
   picture: 'jesse.jpg',
