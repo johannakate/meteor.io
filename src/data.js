@@ -44,7 +44,7 @@ const people = [{
 }, {
   name: 'Sashko Stubailo',
   picture: 'sashko.jpg',
-  title: 'Tech Lead : Apollo OSS',
+  title: 'Engineering Manager',
   twitter: 'stubailo',
   bio: 'In addition to being an engineering manager, tech lead, and Meteor Forum champion, Sashko is also the office’s resident DJ, tennis ball collector, board game master, and only snowboarder (the rest of us know skiing is better).',
 }, {
