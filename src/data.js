@@ -100,7 +100,7 @@ const people = [{
   picture: 'alisha.jpg',
   title: 'Recruiting Coordinator',
   twitter: 'alishaehrlich',
-  bio: 'When not improving MDG\'s processes or supporting our talent acquisition and D&I efforts, Alisha loves to read, play board games, and marathon episodes on Netflix. She might also be able to get you Hamilton tickets if you\'re lucky!',
+  bio: 'When not improving MDG\’s processes or supporting our talent acquisition and D&I efforts, Alisha loves to read, play board games, and marathon episodes on Netflix. She\’s also an actress outside of MDG and saw the final dress of Hamilton!',
 }, {
   name: 'Tim Hingston',
   picture: 'tim.jpg',
