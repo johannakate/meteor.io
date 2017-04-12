@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "maw dev"
+    "start": "maw dev"
   },
   "devDependencies": {
     "maw": "^0.4.10",
