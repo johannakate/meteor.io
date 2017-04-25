@@ -106,7 +106,7 @@ const people = [{
   picture: 'tim.jpg',
   title: 'Tech Lead : Galaxy Frontend',
   twitter: 'timbotnik',
-  bio: 'Not only is Tim the only person at MDG to have worked across the full stack of all our commercial products, he\'s also an accomplished guitarist who\'s toured with several indie bands and appeared at SXWS and on MTV.',
+  bio: 'Not only is Tim the only person at MDG to have worked across the full stack of all our commercial products, he\'s also an accomplished guitarist who\'s toured with several indie bands and appeared at SXSW and on MTV.',
 }, {
   name: 'Faby Zavala',
   picture: 'faby.jpg',
