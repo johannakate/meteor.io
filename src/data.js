@@ -84,7 +84,7 @@ const people = [{
   twitter: 'helferjs',
   bio: 'Jonas, our Coup champion, is constantly cooking up new ways to get people involved in open source. He\'s one of our blog\'s most frequent writers, but good luck reading over his shoulder, because his computer\'s language is set to Mandarin.',
 }, {
-  name: 'Rohit Bahkshi',
+  name: 'Rohit Bakhshi',
   picture: 'rohit.jpg',
   title: 'Senior Product Manager',
   twitter: 'rohit2b',
@@ -161,6 +161,11 @@ module.exports = {
     title: 'Cloud Systems Engineering',
     description: 'Help shape the evolution of the modern cloud architecture. You\'ll contribute to exciting new technologies and solve hard problems in distributed systems, scalability, cross-region coordination, and cloud orchestration.',
     image: 'cloud-services.jpg',
+  },{
+    id: 'e545fc3a-8cd2-4faf-8653-bf83d2e35a8b',
+    title: 'Design',
+    description: 'Help product developers build great apps quickly. For us, the produt developer experience is essential, and we strive to build fun and intuitive products that feel right and work well.',
+    image: 'design.jpg',
   },{
     id: '959865c0-73b9-4938-91ec-ed69fabeec24',
     title: 'Frontend Application Engineering',
