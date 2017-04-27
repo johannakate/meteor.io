@@ -98,7 +98,7 @@ const people = [{
 }, {
   name: 'Alisha Ehrlich',
   picture: 'alisha.jpg',
-  title: 'Recruiting Coordinator',
+  title: 'Recruiting',
   twitter: 'alishaehrlich',
   bio: 'When not improving MDG\’s processes or supporting our talent acquisition and D&I efforts, Alisha loves to read, play board games, and marathon episodes on Netflix. She\’s also an actress outside of MDG and saw the final dress of Hamilton!',
 }, {
