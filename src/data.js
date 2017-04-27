@@ -130,7 +130,7 @@ const people = [{
   picture: 'uri.jpg',
   title: 'Core Developer',
   twitter: 'urigoldshtein',
-  bio: 'You can find Uri\'s his distinctive hairstyle at conferences all around the world (nickname: “Angular Jesus”). It can be hard to figure out what time zone he\'s in, but if he\'s not making OSS, he\'s probably couch surfing or hiking in the desert.',
+  bio: 'You can find Uri and his distinctive hairstyle at conferences all around the world (nickname: “Angular Jesus”). It can be hard to figure out what time zone he\'s in, but if he\'s not making OSS, he\'s probably couch surfing or hiking in the desert.',
 }, {
   name: 'Pierre Carrier',
   picture: 'pierre.jpg',
