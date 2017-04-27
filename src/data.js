@@ -181,10 +181,5 @@ module.exports = {
     title: 'Open Source Engineering',
     description: 'Help us build open source GraphQL and JavaScript libraries and tools, share our ideas with the GraphQL community, and collaborate with other companies and projects to move GraphQL forward.',
     image: 'open-source.jpg',
-  },{
-    id: 'e545fc3a-8cd2-4faf-8653-bf83d2e35a8b',
-    title: 'Design',
-    description: 'Help product developers build great apps quickly. For us, the product developer experience is essential, and we strive to build fun and intuitive products that feel right and work well.',
-    image: 'design.png',
   }],
 }
