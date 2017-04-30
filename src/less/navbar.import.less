@@ -23,23 +23,38 @@
 
     a {
       color: #fff;
+
+      &:hover {
+        color: @color-apollo;
+
+        &:after {
+          height: 0;
+        }
+      }
     }
   }
 
   &.team .team,
   &.culture .culture,
-  &.jobs .jobs {
+  &.jobs .jobs,
+  a.link:hover {
     position: relative;
+    color: @color-apollo;
+    transition: all 300ms ease-out;
 
     &:after {
       content: "";
       position: absolute;
-      height: 5px;
-      background-color: #eee;
-      bottom: 0;
+      height: 2px;
+      background-color: @color-apollo;
+      bottom: -1px;
       width: 100%;
       left: 0;
     }
+  }
+
+  a.link {
+    transition: all 300ms ease-out;
   }
 
   &.scrolled {
@@ -53,14 +68,7 @@
     vertical-align: middle;
   }
 
-  a {
-    transition: all 300ms ease-out;
 
-    &:hover {
-      color: @color-meteor;
-      transition: all 300ms ease-out;
-    }
-  }
 
   a.logo {
     font-weight: 700;
@@ -78,7 +86,7 @@
     float: right;
     text-decoration: none;
     font-weight: 600;
-    padding: 0 20px;
+    margin-left: 1.875rem;
 
     &:first-of-type {
       margin-right: -20px;
