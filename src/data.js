@@ -21,7 +21,7 @@ const people = [{
   founder: true,
   title: 'CTO',
   twitter: 'n1mmy',
-  bio: 'Nick is a serial hobbiest and has had a wide array of interests over time, from bread baking to perfume making to ham radio and many more. He\'s our CTO and chief architecture whisperer, as well as our hot sauce sommelier.',
+  bio: 'Nick is a serial hobbyist and has had a wide array of interests over time, from bread baking to perfume making to ham radio and many more. He\'s our CTO and chief architecture whisperer, as well as our hot sauce sommelier.',
 }, {
   name: 'Matt DeBergalis',
   picture: 'matt.jpg',
