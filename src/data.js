@@ -149,6 +149,18 @@ const people = [{
   title: 'Marketing Ops & Analytics',
   twitter: 'rezpezz',
   bio: 'Reza is our resident marketing data analytics expert. When he’s not attending Warriors basketball games, you may find him swimming in the SF Bay around Alcatraz (assuming the sharks don\'t find him first).',
+}, {
+  name: 'Steven Hao',
+  picture: 'steven.png',
+  title: 'Intern',
+  github: 'stevenhao',
+  bio: 'Steven joins us this summer from MIT. He\'s working on the Meteor team with Ben and Jesse to build awesome new features in our largest, most popular and well-known repository!',
+}, {
+  name: 'Shadaj Laddad',
+  picture: 'shadaj.jpg',
+  title: 'Intern',
+  twitter: 'shadajl',
+  bio: 'Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He\'s working on Apollo team with Jonas to build a new store for Apollo Client!',
 }];
 
 module.exports = {
