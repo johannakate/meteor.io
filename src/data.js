@@ -154,13 +154,19 @@ const people = [{
   picture: 'steven.png',
   title: 'Intern',
   github: 'stevenhao',
-  bio: 'Steven joins us this summer from MIT. He\'s working on the Meteor team with Ben and Jesse to build awesome new features in our largest, most popular and well-known repository!',
+  bio: 'Steven joins us this summer fresh from MIT. He\'s working on the Meteor team with Ben and Jesse to build awesome new features in our largest, most popular and well-known repository!',
 }, {
   name: 'Shadaj Laddad',
   picture: 'shadaj.jpg',
   title: 'Intern',
   twitter: 'shadajl',
-  bio: 'Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He\'s working on Apollo team with Jonas to build a new store for Apollo Client!',
+  bio: 'Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He\'s working on the Apollo open source team with Jonas to build a new store for Apollo Client!',
+}, {
+  name: 'Evans Hauser',
+  picture: 'evans.png',
+  title: 'Intern',
+  twitter: 'evanshauser',
+  bio: 'Evans joins us this summer fresh from Carnegie Mellon. He\'s working on the Apollo open source team with Jonas to build awesome new features for our fastest growing project, Apollo Client.',
 }];
 
 module.exports = {
