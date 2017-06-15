@@ -160,13 +160,19 @@ const people = [{
   picture: 'shadaj.jpg',
   title: 'Intern',
   twitter: 'shadajl',
-  bio: 'Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He\'s working on the Apollo open source team with Jonas to build a new store for Apollo Client!',
+  bio: 'Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He\'s working on the Apollo open source team with Jonas to build a new, more flexible store for Apollo Client!',
 }, {
   name: 'Evans Hauser',
   picture: 'evans.png',
   title: 'Intern',
   twitter: 'evanshauser',
-  bio: 'Evans joins us this summer fresh from Carnegie Mellon. He\'s working on the Apollo open source team with Jonas to build awesome new features for our fastest growing project, Apollo Client.',
+  bio: 'Evans joins us this summer fresh from Carnegie Mellon. He\'s working on the Apollo open source team with Jonas to build a (very long-awaited) new Network Interface for Apollo Client!',
+}, {
+  name: 'Ramya Nagarajan',
+  picture: 'ramya.jpg',
+  title: 'Intern',
+  twitter: 'rrramyan',
+  bio: 'Ramya joins us this summer fresh from MIT. She\'s working on the Apollo open source team with Sashko to implement new features and fix critical bugs in one of our most popular projects, the Apollo Client devtools.',
 }];
 
 module.exports = {
