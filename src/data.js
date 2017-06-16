@@ -172,7 +172,13 @@ const people = [{
   picture: 'ramya.jpg',
   title: 'Intern',
   twitter: 'rrramyan',
-  bio: 'Ramya joins us this summer fresh from MIT. She\'s working on the Apollo open source team with Sashko to implement new features and fix critical bugs in one of our most popular projects, the Apollo Client devtools.',
+  bio: 'Ramya joins us this summer fresh from MIT. She\'s working on the Apollo open source team with Sashko to implement new features and fix critical bugs in one of our most popular projects, the Apollo Client devtools!',
+}, {
+  name: 'Aashish Welling',
+  picture: 'aashish.jpg',
+  title: 'Intern',
+  github: 'omegablitz',
+  bio: 'Aashish joins us this summer fresh from MIT. He\'s working on the commercial services team with Pierre and Joseph to build new cloud systems infrastructure for our commercial Apollo tools!',
 }];
 
 module.exports = {
