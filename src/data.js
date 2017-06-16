@@ -179,6 +179,12 @@ const people = [{
   title: 'Intern',
   github: 'omegablitz',
   bio: 'Aashish joins us this summer fresh from MIT. He\'s working on the commercial services team with Pierre and Joseph to build new cloud systems infrastructure for our commercial Apollo tools!',
+}, {
+  name: 'Klaire Tan',
+  picture: 'klaire.jpg',
+  title: 'Intern',
+  github: 'klairetan',
+  bio: 'Klaire joins us this summer fresh from Yale. She\'s working on the commercial services team with David to build highly requested features for our flagship product, Galaxy!',
 }];
 
 module.exports = {
