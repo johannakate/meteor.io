@@ -150,6 +150,12 @@ const people = [{
   twitter: 'rezpezz',
   bio: 'Reza is our resident marketing data analytics expert. When he’s not attending Warriors basketball games, you may find him swimming in the SF Bay around Alcatraz (assuming the sharks don\'t find him first).',
 }, {
+  name: 'Pete Wagner',
+  picture: 'pete.png',
+  title: 'Core Developer',
+  github: 'thepwagner',
+  bio: 'Pete, our most authentic Canadian, joins our team after coming from Fitbit. He\'s a core dev and backend engineer who works primarily on Galaxy and loves poutine. We\'re happy to say we introduced him to Korean food.',
+}, {
   name: 'Steven Hao',
   picture: 'steven.png',
   title: 'Intern',
