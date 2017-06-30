@@ -78,12 +78,6 @@ const people = [{
   twitter: 'danimman',
   bio: '“Chief Monkey Herder 🐵”. Danielle built most of this website, and didn\'t want to write a bio for herself.',
 }, {
-  name: 'Jonas Helfer',
-  picture: 'jonas.jpg',
-  title: 'Core Developer',
-  twitter: 'helferjs',
-  bio: 'Jonas, our Coup champion, is constantly cooking up new ways to get people involved in open source. He\'s one of our blog\'s most frequent writers, but good luck reading over his shoulder, because his computer\'s language is set to Mandarin.',
-}, {
   name: 'Rohit Bakhshi',
   picture: 'rohit.jpg',
   title: 'Senior Product Manager',
@@ -166,13 +160,13 @@ const people = [{
   picture: 'shadaj.jpg',
   title: 'Intern',
   twitter: 'shadajl',
-  bio: 'Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He\'s working on the Apollo open source team with Jonas to build a new, more flexible store for Apollo Client!',
+  bio: 'Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He\'s working on the Apollo open source team with James + Sashko to build a new, more flexible store for Apollo Client!',
 }, {
   name: 'Evans Hauser',
   picture: 'evans.png',
   title: 'Intern',
   twitter: 'evanshauser',
-  bio: 'Evans joins us this summer fresh from Carnegie Mellon. He\'s working on the Apollo open source team with Jonas to build a (very long-awaited) new Network Interface for Apollo Client!',
+  bio: 'Evans joins us this summer fresh from Carnegie Mellon. He\'s working on the Apollo open source team with James + Sashko to build a (very long-awaited) new Network Interface for Apollo Client!',
 }, {
   name: 'Ramya Nagarajan',
   picture: 'ramya.jpg',
@@ -191,6 +185,12 @@ const people = [{
   title: 'Intern',
   github: 'klairetan',
   bio: 'Klaire joins us this summer fresh from Yale. She\'s working on the commercial services team with David to build highly requested features for our flagship product, Galaxy!',
+}, {
+  name: 'James Baxley',
+  picture: 'james.jpg',
+  title: 'Core Developer',
+  twitter: 'jbaxleyiii',
+  bio: 'Normally found in his garden tending his bee hives, James is a believer in cultivating happy and health communities. He is a lover of design systems, all things javascript and fixing old land rovers.',
 }];
 
 module.exports = {
