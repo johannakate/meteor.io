@@ -190,7 +190,7 @@ const people = [{
   picture: 'james.jpg',
   title: 'Core Developer',
   twitter: 'jbaxleyiii',
-  bio: 'Normally found in his garden tending his bee hives, James is a believer in cultivating happy and health communities. He is a lover of design systems, all things javascript and fixing old land rovers.',
+  bio: 'Normally found in his garden tending his bee hives, James is a believer in cultivating happy and healthly communities. He is a lover of design systems, all things javascript and fixing old land rovers.',
 }];
 
 module.exports = {
