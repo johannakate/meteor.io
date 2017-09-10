@@ -1,15 +1,16 @@
 // @import '../node_modules/mdg-borealis/index.import.less';
 
-@import 'less/fonts.import.less';
-@import 'less/colors.import.less';
+@import "less/fonts.import.less";
+@import "less/colors.import.less";
 
-@import 'less/home.import.less';
-@import 'less/team.import.less';
-@import 'less/jobs.import.less';
-@import 'less/culture.import.less';
+@import "less/home.import.less";
+@import "less/team.import.less";
+@import "less/jobs.import.less";
+@import "less/culture.import.less";
+@import "less/interns.import.less";
 
-@import 'less/navbar.import.less';
-@import 'less/footer.import.less';
+@import "less/navbar.import.less";
+@import "less/footer.import.less";
 
 * {
   font-family: "Source Sans Pro", sans-serif;
@@ -17,7 +18,8 @@
   line-height: 1.5em;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -28,4 +30,34 @@ html, body {
 
   background-color: transparent;
   background-image: none;
+}
+
+p {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  & + p {
+    margin-top: 20px;
+  }
+
+  &.quote {
+    position: relative;
+    font-style: italic;
+
+    &:before {
+      content: "​‌“";
+      position: absolute;
+      font-size: 100px;
+      left: -10px;
+      top: 13px;
+      opacity: 0.3;
+    }
+  }
+
+  &.speaker {
+    margin-top: 0;
+    font-style: italic;
+    text-align: right;
+  }
 }

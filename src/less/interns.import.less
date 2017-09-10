@@ -1,0 +1,217 @@
+@import "./colors.import.less";
+
+body.intern {
+  .title-container {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .question {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .pagetitle {
+    margin-bottom: 0;
+
+    .link {
+      text-decoration: none;
+      color: @color-darker;
+      font-size: 20px;
+      margin-left: 5px;
+      line-height: 40px;
+      transition: all 300ms ease-out;
+      vertical-align: middle;
+
+      &:hover {
+        color: @color-apollo;
+        transition: all 300ms ease-out;
+      }
+    }
+  }
+
+  p {
+    .link {
+      text-decoration: none;
+      color: @color-dark;
+      transition: all 300ms ease-out;
+      font-weight: bold;
+      color: @color-apollo;
+
+      &:hover {
+        color: lighten(@color-apollo, 10%);
+        transition: all 300ms ease-out;
+      }
+    }
+  }
+
+  .pagesubtitle {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  img {
+    height: 200px;
+    weight: 200px;
+    border-radius: 100px;
+    float: right;
+    margin: 0 0 20px 20px;
+  }
+
+  section {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  p:last-of-type {
+    margin-bottom: 40px;
+  }
+}
+
+body.interns {
+  iframe {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .intern-pics {
+    max-width: 800px;
+    display: flex;
+    margin: 40px auto;
+    padding: 0 35px;
+
+    > div {
+      margin: 0 5px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: @color-mediumlight;
+      image-orientation: 0deg;
+    }
+
+    .intern-1 {
+      flex: 2;
+      background-image: url(/img/company/interns/6.jpg);
+    }
+    .intern-2 {
+      flex: 1;
+      background-image: url(/img/company/interns/7.jpg);
+    }
+  }
+
+  .interns.pictures {
+    height: 480px;
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 5px 35px;
+
+    .image {
+      vertical-align: top;
+      display: inline-block;
+      width: ~"calc(33.33333333% - 10px)";
+      height: ~"calc(50% - 10px)";
+      margin: 5px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      &.double {
+        width: ~"calc(66.66666666% - 10px)";
+      }
+    }
+  }
+
+  .button {
+    border-radius: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: #fff !important;
+    background-color: @color-apollo;
+
+    &:hover {
+      background-color: #1e9185;
+      transition: all 300ms ease-out;
+    }
+  }
+
+  section {
+    margin-bottom: 40px;
+
+    .icon-arrow-right {
+      font-size: 10px;
+    }
+
+    &.cta {
+      text-align: center;
+    }
+
+    .content {
+      > div {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 0 40px;
+        position: relative;
+
+        h3 {
+          display: inline-block;
+          font-weight: bold;
+          padding: 0;
+        }
+
+        .social {
+          display: inline-block;
+
+          .icon {
+            color: @color-dark;
+            margin-left: 5px;
+          }
+        }
+
+        .subtitle {
+          font-weight: light;
+          font-style: italic;
+        }
+
+        img {
+          float: right;
+          height: 120px;
+          width: 120px;
+          border-radius: 60px;
+          margin: 0 0 5px 5px;
+        }
+      }
+
+      .read-more {
+        margin-top: 5px;
+      }
+
+      .title {
+        margin-bottom: 5px;
+      }
+    }
+
+    .link {
+      text-decoration: none;
+      color: @color-dark;
+      transition: all 300ms ease-out;
+      font-weight: bold;
+      color: @color-apollo;
+
+      &:hover {
+        color: lighten(@color-apollo, 10%);
+        transition: all 300ms ease-out;
+      }
+    }
+  }
+}

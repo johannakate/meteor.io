@@ -1,4 +1,4 @@
-@import './colors.import.less';
+@import "./colors.import.less";
 
 .pagetitle {
   margin-top: 100px;
@@ -18,7 +18,7 @@
     cursor: pointer;
   }
 
-  &:not(.jobs):not(.culture):not(.team):not(.scrolled) {
+  &:not(.jobs):not(.culture):not(.team):not(.interns):not(.intern):not(.scrolled) {
     border-bottom: none;
 
     a {
@@ -36,6 +36,7 @@
 
   &.team .team,
   &.culture .culture,
+  &.interns .interns,
   &.jobs .jobs,
   a.link:hover {
     position: relative;
@@ -68,11 +69,9 @@
     vertical-align: middle;
   }
 
-
-
   a.logo {
     font-weight: 700;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
@@ -94,7 +93,7 @@
   }
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .navbar {
     padding: 0 20px !important;
 

@@ -1,4 +1,4 @@
-@import './colors.import.less';
+@import "./colors.import.less";
 
 .bg-gray {
   background-color: @color-medium;
@@ -212,7 +212,9 @@
   margin: 40px auto;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 100;
   max-width: 680px;
   margin: 0 auto;
@@ -232,7 +234,7 @@ h2 {
 
 h4.subtitle {
   text-transform: uppercase;
-  letter-spacing: .35em;
+  letter-spacing: 0.35em;
   display: flex;
   color: #aaa;
   font-size: 12px;
@@ -241,11 +243,12 @@ h4.subtitle {
   justify-content: center;
   align-items: center;
 
-  &:before, &:after {
+  &:before,
+  &:after {
     content: "";
     flex: 1;
     height: 1px;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
   }
 
   &:before {
@@ -254,36 +257,6 @@ h4.subtitle {
 
   &:after {
     margin-left: ~"calc(10px - .35em)";
-  }
-}
-
-p {
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 0 40px;
-
-  & + p {
-    margin-top: 20px;
-  }
-
-  &.quote {
-    position: relative;
-    font-style: italic;
-
-    &:before {
-      content: "​‌“";
-      position: absolute;
-      font-size: 100px;
-      left: -10px;
-      top: 13px;
-      opacity: 0.3;
-    }
-  }
-
-  &.speaker {
-    margin-top: 0;
-    font-style: italic;
-    text-align: right;
   }
 }
 
@@ -322,17 +295,14 @@ p {
 
   .jobs.button {
     border-radius: 20px;
-    width: 250px;
-    padding: 10px 20px;
-    // border: 1px solid #fff;
+    padding: 10px 40px;
     text-align: center;
     font-weight: 700;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 300ms ease-out;
-    // text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     color: #fff !important;
     background-color: @color-apollo;
@@ -360,7 +330,12 @@ p {
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 15%, rgba(0,0,0,0.3) 60%,rgba(0,0,0,0) 100%);
+      background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.6) 15%,
+        rgba(0, 0, 0, 0.3) 60%,
+        rgba(0, 0, 0, 0) 100%
+      );
     }
   }
 
@@ -445,8 +420,12 @@ p {
       left: 0;
       bottom: 0;
       right: 0;
-      background-image: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.6) 100%);
-      text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+      background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 30%,
+        rgba(0, 0, 0, 0.6) 100%
+      );
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
       text-align: left;
       transition: all 300ms ease-out;
 
@@ -477,7 +456,11 @@ p {
 
       p {
         opacity: 0;
-        background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%);
+        background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0.3) 50%
+        );
         transform: translate3d(0, 10px, 0);
         transition: all 300ms ease-out;
         padding: 15px;
@@ -526,13 +509,13 @@ p.bottom.jobs {
   }
 }
 
-@media(max-width: 860px) {
+@media (max-width: 860px) {
   .hero h1 {
     font-size: 34px;
   }
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .products {
     display: block;
 

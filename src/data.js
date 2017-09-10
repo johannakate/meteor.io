@@ -196,46 +196,6 @@ const people = [
     bio:
       "Pete, our most authentic Canadian, joins our team after coming from Fitbit. He's a core dev and backend engineer who works primarily on Galaxy and loves poutine. We're happy to say we introduced him to Korean food."
   },
-  // {
-  //   name: "Steven Hao",
-  //   picture: "steven.png",
-  //   title: "Intern",
-  //   github: "stevenhao",
-  //   bio:
-  //     "Steven joins us this summer fresh from MIT. He's working on the Meteor team with Ben and Jesse to build awesome new features in our largest, most popular and well-known repository!"
-  // },
-  // {
-  //   name: "Shadaj Laddad",
-  //   picture: "shadaj.jpg",
-  //   title: "Intern",
-  //   twitter: "shadajl",
-  //   bio:
-  //     "Shadaj joins us this summer fresh from Sunnyvale and the Scala community. He's working on the Apollo open source team with James + Sashko to build a new, more flexible store for Apollo Client!"
-  // },
-  // {
-  //   name: "Evans Hauser",
-  //   picture: "evans.png",
-  //   title: "Intern",
-  //   twitter: "evanshauser",
-  //   bio:
-  //     "Evans joins us this summer fresh from Carnegie Mellon. He's working on the Apollo open source team with James + Sashko to build a (very long-awaited) new Network Interface for Apollo Client!"
-  // },
-  // {
-  //   name: "Ramya Nagarajan",
-  //   picture: "ramya.jpg",
-  //   title: "Intern",
-  //   twitter: "rrramyan",
-  //   bio:
-  //     "Ramya joins us this summer fresh from MIT. She's working on the Apollo open source team with Sashko to implement new features and fix critical bugs in one of our most popular projects, the Apollo Client devtools!"
-  // },
-  // {
-  //   name: "Aashish Welling",
-  //   picture: "aashish.jpg",
-  //   title: "Intern",
-  //   github: "omegablitz",
-  //   bio:
-  //     "Aashish joins us this summer fresh from MIT. He's working on the commercial services team with Pierre and Joseph to build new cloud systems infrastructure for our commercial Apollo tools!"
-  // },
   {
     name: "Klaire Tan",
     picture: "klaire.jpg",
@@ -262,61 +222,9 @@ const people = [
   }
 ];
 
-const interns = [
-  {
-    name: "Evans Hauser",
-    picture: "evans.png",
-    github: "",
-    twitter: "",
-    bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non libero quis neque pellentesque rutrum at nec lectus. Fusce nec dapibus massa, efficitur lobortis nisi. Sed sed tristique nulla. Quisque metus neque, pretium et feugiat eu, feugiat mattis mi. Sed ultrices rhoncus dictum. Donec elit odio, semper a felis rutrum, accumsan tincidunt tortor. Donec nisl leo, porttitor id facilisis ut, hendrerit non nunc. In cursus mollis semper. Etiam fringilla pulvinar pellentesque."
-  },
-  {
-    name: "Shadaj Laddad",
-    picture: "shadaj.jpg",
-    github: "",
-    twitter: "",
-    bio:
-      "Ut placerat nisi nec suscipit cursus. Fusce eros felis, congue at bibendum in, lacinia vel nulla. In sit amet odio ipsum. Aenean a nunc congue, semper libero vel, ullamcorper nisi. Mauris velit ex, hendrerit ac purus et, hendrerit bibendum est. Suspendisse suscipit purus id accumsan mattis. Nam at nibh semper, ultricies ante eu, feugiat tellus. Aliquam efficitur tempus sapien, sed aliquet nisl iaculis quis."
-  },
-  {
-    name: "Ramya Nagarajan",
-    picture: "ramya.jpg",
-    github: "",
-    twitter: "",
-    bio:
-      "Integer in magna ac erat elementum auctor. Pellentesque et vestibulum lacus. Aliquam quis arcu blandit, condimentum lacus id, porttitor neque. Nulla facilisi. Nunc vel magna sit amet mauris ultricies placerat sit amet in enim. Curabitur libero leo, imperdiet sed risus ut, luctus tincidunt sem. Fusce ipsum est, aliquet quis rhoncus convallis, sollicitudin in ligula. Donec tincidunt at enim ut vehicula. Nam suscipit, libero a luctus interdum, ligula est feugiat sem, a auctor arcu sem sed odio. Sed sed odio pharetra, tempor orci sed, pellentesque augue. Cras ac congue neque, vel rutrum leo."
-  },
-  {
-    name: "Klaire Tan",
-    picture: "klaire.jpg",
-    github: "",
-    twitter: "",
-    bio:
-      "Vestibulum molestie ultricies feugiat. Ut elementum cursus ipsum vel vulputate. Maecenas quis leo dolor. Sed lobortis tortor sit amet cursus commodo. Morbi et felis eget quam consectetur bibendum vel in felis. Sed vel vehicula erat. Cras leo elit, volutpat suscipit luctus nec, sodales non ex. Maecenas eros eros, cursus commodo gravida id, pulvinar ultrices augue."
-  },
-  {
-    name: "Aashish Welling",
-    picture: "aashish.jpg",
-    github: "",
-    twitter: "",
-    bio:
-      "Sed ultrices vitae quam ac congue. Sed turpis purus, hendrerit quis ultricies at, consequat quis leo. Donec non augue non ipsum volutpat maximus eu sed diam. Fusce sit amet sapien nec urna hendrerit suscipit in fermentum libero. Phasellus viverra augue elit, sit amet volutpat dui mattis eget. Praesent in ligula vitae leo scelerisque lobortis sed vel elit. Praesent sollicitudin ante eget sapien consectetur dignissim. Phasellus vestibulum vehicula purus, at eleifend ex. Vivamus ullamcorper nunc aliquet nibh elementum gravida. Duis convallis eros id massa aliquet aliquet. Duis at ante et turpis tempus vestibulum ut id ante. Nullam eget auctor ligula. Praesent blandit neque fringilla orci feugiat condimentum. Cras lobortis turpis eget ex luctus convallis."
-  },
-  {
-    name: "Steven Hao",
-    picture: "steven.png",
-    github: "",
-    twitter: "",
-    bio:
-      "In pretium non sem quis eleifend. Morbi quis est nec erat elementum molestie. Curabitur at nisi mattis, dignissim ligula a, suscipit nisl. Donec ut maximus ex, sed vestibulum purus. Nunc a mauris et nunc venenatis malesuada. Cras a faucibus quam. Vivamus placerat placerat viverra. Mauris quis suscipit turpis. Curabitur nec tempus justo. Nulla rutrum, augue non consectetur accumsan, orci enim posuere tortor, ut ornare eros nunc gravida neque. Etiam sagittis velit eget cursus eleifend. Ut maximus vehicula tortor a vestibulum."
-  }
-];
-
 module.exports = {
   companyName: "Meteor Development Group",
   people: shuffle(people),
-  interns: shuffle(interns),
   investors: [
     "andressen.png",
     "combinator.png",

@@ -3,11 +3,13 @@
   <a class="link right team" href="/team">Team</a>
   <a class="link right culture" href="/culture">Culture</a>
   <a class="link right jobs" href="/jobs">Jobs</a>
+  <!-- <a class="link right interns" href="/interns">Interns</a> -->
 </div>
 
 <script>
   window.addEventListener('scroll', () => {
-    var top = (window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0);
+    var top = (window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0);
     document.getElementById('navbar').className = `navbar {{page}} ${!!top ? ' scrolled' : ''}`;
   });
+
 </script>
